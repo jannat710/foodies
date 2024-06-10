@@ -17,11 +17,11 @@ function Menu() {
     },
   ];
   return (
-    <section className="grid lg:grid-cols-3 gap-16 place-self-center">
+    <section className="grid lg:grid-cols-3 gap-16 ">
       {menuData.map((item) => (
         <div
           key={item.id}
-          className="h-80 bg-cover relative flex items-center justify-center rounded-2xl"
+          className="h-80 bg-cover relative flex items-center justify-center rounded-2xl max-w-xl"
           style={{
             backgroundImage: `url(${item.image})`,
           }}
