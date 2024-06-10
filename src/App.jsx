@@ -1,5 +1,5 @@
 import AboutUs from "./components/partials/Sections/AboutUs/AboutUs";
-import Contact from "./components/partials/Sections/Contact/Contact";
+import ContactUs from "./components/partials/Sections/ContactUs/ContactUs";
 import Footer from "./components/partials/Sections/Footer/Footer";
 import Form from "./components/partials/Sections/Form/Form";
 import Hero from "./components/partials/Sections/Hero/Hero";
@@ -16,7 +16,7 @@ function App() {
       <AboutUs />
       <Items />
       <Form />
-      <Contact />
+      <ContactUs />
       <Footer />
     </>
   );

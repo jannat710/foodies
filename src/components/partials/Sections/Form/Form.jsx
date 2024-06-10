@@ -6,7 +6,7 @@ function Form() {
     <FormWrapper>
       <div className="opacity" />
       <div style={{ zIndex: 1 }}>
-        <div className="absolute inset-y-0 left-0 content-center pl-40 space-y-10">
+        <div className="absolute inset-y-0 left-0 content-center px-5 lg:pl-40 space-y-10">
           <FormDetails />
           <InputGroup />
         </div>

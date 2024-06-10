@@ -7,7 +7,7 @@ function Items() {
       <SectionTitle
         mainText="View Our Tasty"
         subText="Foods"
-        subTitle={
+        subTitle1={
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, sint?"
         }
       />

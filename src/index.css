@@ -12,7 +12,7 @@
     @apply text-4xl font-semibold text-white;
   }
   h4 {
-    @apply text-3xl font-semibold;
+    @apply text-3xl font-semibold text-white;
   }
   h5 {
     @apply text-2xl;
@@ -33,5 +33,8 @@
   }
   .input_styles {
     @apply p-4 text-black font-normal w-full lg:w-1/2 rounded-full;
+  }
+  .icon {
+    @apply bg-secondary hover:bg-primary rounded-full h-10 w-10 p-2;
   }
 }

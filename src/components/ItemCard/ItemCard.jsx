@@ -33,9 +33,9 @@ function ItemCard() {
     <div className="grid lg:grid-cols-2 gap-10 py-10">
       {dishes.map((item) => (
         <div key={item.id}>
-          <div class="max-w-xl w-full mx-auto bg-gray-800 rounded-b-3xl overflow-hidden">
+          <div className="max-w-xl w-full mx-auto bg-gray-800 rounded-b-3xl overflow-hidden">
             <img src={item.image} alt="" />
-            <div class=" bg-gray-900 text-center space-y-5 py-5">
+            <div className=" bg-gray-900 text-center space-y-5 py-5">
               <h3>{item.name}</h3>
               <h6>{item.details}</h6>
               <Button primary text={"Order Now"} />

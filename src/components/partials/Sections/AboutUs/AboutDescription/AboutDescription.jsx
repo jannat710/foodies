@@ -4,19 +4,19 @@ import SectionTitle from "../../../Elements/SectionTitle/SectionTitle";
 function AboutDescription() {
   return (
     <div className="space-y-10">
-      <SectionTitle mainText="About" subText="Us" alignment="left" />
-      <h6>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+      <SectionTitle
+        mainText="About"
+        subText="Us"
+        alignment="left"
+        subTitle1={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
         similique unde iure laborum molestias repudiandae vel sunt animi nulla
         obcaecati ipsa, quam delectus officiis, dolorum a, autem labore velit
-        alias!
-      </h6>
-      <h6>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+        alias!`}
+        subTitle2={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
         similique unde iure laborum molestias repudiandae vel sunt animi nulla
         obcaecati ipsa, quam delectus officiis, dolorum a, autem labore velit
-        alias!
-      </h6>
+        alias!`}
+      />
       <Button text={"Order Now"} />
     </div>
   );
