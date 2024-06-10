@@ -17,7 +17,7 @@ function Menu() {
     },
   ];
   return (
-    <section className="grid lg:grid-cols-3 gap-16 ">
+    <section className="grid lg:grid-cols-3 gap-32 ">
       {menuData.map((item) => (
         <div
           key={item.id}
