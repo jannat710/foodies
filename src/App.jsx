@@ -1,3 +1,4 @@
+import AboutUs from "./components/partials/Sections/AboutUs/AboutUs";
 import Banner from "./components/partials/Sections/Banner/Banner";
 import Contact from "./components/partials/Sections/Contact/Contact";
 import Footer from "./components/partials/Sections/Footer/Footer";
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <Menu />
+      <AboutUs />
       <Items />
       <Banner />
       <Contact />

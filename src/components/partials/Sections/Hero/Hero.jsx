@@ -9,7 +9,7 @@ function Hero() {
         <BoxCircle />
         <Title className="uppercase text-white" text={"New reswtaurant"} />
         <Title
-          className=" text-white "
+          className=" text-white"
           mainHeading
           text={"Where every ingredients tells a story"}
         />

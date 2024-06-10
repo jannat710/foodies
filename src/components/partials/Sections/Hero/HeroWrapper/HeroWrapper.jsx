@@ -7,7 +7,7 @@ function HeroWrapper({ children }) {
         backgroundImage: `url(${hero})`,
       }}
     >
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+      <div className="opacity"></div>
       <div style={{ zIndex: 1 }}>{children}</div>
     </div>
   );

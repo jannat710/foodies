@@ -4,8 +4,8 @@ function Button({ text, action, primary, className, type }) {
       type={type}
       className={`rounded-full min-w-32  ring-1 py-4 px-8 duration-300 uppercase ${
         primary
-          ? "bg-primary text-white hover:bg-transparent hover:text-primary "
-          : "bg-primary text-primaryColor ring-primary hover:ring-secondary hover:bg-secondary text-white hover:text-black font-semibold "
+          ? "bg-secondary hover:bg-primary hover:text-white font-semibold ring-secondary hover:ring-primary"
+          : "bg-primary ring-primary hover:ring-secondary hover:bg-secondary text-white hover:text-black font-semibold "
       } ${className}`}
       onClick={action}
     >

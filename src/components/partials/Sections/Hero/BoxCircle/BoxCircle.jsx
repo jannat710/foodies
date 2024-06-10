@@ -5,9 +5,9 @@ function BoxCircle() {
     <div className="bg-green-800 rounded-full h-60 w-60 flex items-center justify-center text-center">
       <div className="">
         <Title mainHeading text={"40%"} />
-        <h4 className="uppercase">
+        <h3 className="uppercase">
           Business <br></br>Lunch
-        </h4>
+        </h3>
       </div>
     </div>
   );
