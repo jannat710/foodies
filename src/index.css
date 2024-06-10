@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer base {
   h1 {
-    @apply text-6xl font-semibold;
+    @apply text-6xl font-semibold text-white;
   }
   h2 {
     @apply text-5xl;
@@ -18,11 +18,20 @@
     @apply text-2xl;
   }
   h6 {
-    @apply text-xl;
+    @apply text-xl font-semibold text-white;
+  }
+  span {
+    @apply text-secondary font-semibold italic;
+  }
+  section {
+    @apply h-fit bg-slate-950 w-full px-5 lg:px-20 py-20 lg:py-20;
   }
 }
 @layer components {
-  .opacity{
-    @apply absolute inset-0 bg-black opacity-50
+  .opacity {
+    @apply absolute inset-0 bg-black opacity-50;
+  }
+  .input_styles {
+    @apply p-4 text-black font-normal w-full lg:w-1/2 rounded-full;
   }
 }
